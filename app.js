@@ -15,7 +15,9 @@ if (age>= 18 && is_subscribed === true) {
 
 }
 
-
+else {
+    console.log("Sorry something has gone wrong");
+}
 
 
 
