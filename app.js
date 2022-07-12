@@ -15,9 +15,7 @@ if (age>= 18 && is_subscribed === true) {
 
 }
 
-else{
-    console.log ("cannot verify user");
-}
+
 
 
 
