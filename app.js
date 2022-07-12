@@ -1,20 +1,23 @@
-var age = 18
-var is_subscribed=true;
+let age = 20
+let is_subscribed=false;
 
+if (age>= 18 && is_subscribed === true) {
+    console.log("the user is 18+ and subscribed");
 
-if (userAges < 18){
-    console.log("the user is younger than 18");
+} else if (age < 18 && is_subscribed === true){
+    console.log("the user is under 18 and subscribed ");
+
+} else if (age >= 18 && is_subscribed === false){
+    console.log("The user is 18+ and is not subscribed")
+
+} else if (age < 18 && is_subscribed === false){
+    console.log("The user is under 18 and is not subscribed");
+
 }
 
 else{
-    console.log ("the user is not younger than 18");
+    console.log ("cannot verify user");
 }
 
-if (userSubscribtion){
-    console.log("the user is subscribed");
-}
 
-else{
-    console.log("the user is not subscribed");
-}
 
